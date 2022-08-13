@@ -1,0 +1,139 @@
+.intro{
+    height: 800px;
+    width: 100vw;
+    background-color: rgb(80, 168, 217) ;
+    display: flex;
+    overflow-x: none; 
+}
+
+*{
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+p, h1, ul{
+    color:white;
+}
+
+.c-box{
+    width: 50px;
+    height: 50px;
+    background-color: #17496C;
+    position: relative;
+    margin: 10px 0px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+    transition: all 0.1s ease-in;
+    position: relative;
+    color:white
+}
+
+.c-box:hover{
+    transform: scale(1.15);
+}
+
+.sidebar{
+    width:50vw;
+    display: flex;
+    
+}
+
+.top{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    height: 300px;
+    width:60px;
+    margin: 250px 0px;
+}
+
+    .name{
+        margin: auto;
+        text-align: left;
+    }
+
+    .name p{
+        font-size:40px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        
+    }
+
+    .bullets h1{
+        font-size: 40px;
+    }
+
+    .bullets p{
+        font-size:25px;
+        margin: 10px;
+    }
+
+@media screen and (max-width:650px){
+    .sidebar{
+        width:fit-content ;
+    }
+
+    .name{
+        display: none;
+    }
+
+    .top{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bullets h1{
+        font-size: 40px;
+    }
+
+    .bullets p{
+        font-size:25px;
+        margin: 10px;
+    }
+}
+
+@media (max-width:1100px) and (min-width:650px) {
+    .bullets h1{
+        font-size: 30px;
+    }
+
+    .bullets p{
+        font-size:18px;
+        margin: 10px;
+    }
+
+    .name{
+        margin: auto;
+        text-align: left;
+    }
+
+    .name p{
+        font-size:40px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        position: relative;
+        left: 30px;
+    } 
+
+
+
+ 
+}
+
+a{
+  text-decoration: none;
+}
