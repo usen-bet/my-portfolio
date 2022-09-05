@@ -7,6 +7,15 @@
     align-items: center;
 }
 
+.head{
+    padding: 20px;
+    text-align: center;
+}
+
+.texts{
+  text-align: center;
+}
+
 .intros{
     width: 50vw;
     

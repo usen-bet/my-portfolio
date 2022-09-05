@@ -50,8 +50,10 @@ const ChatProject = () => {
         It has a profile component that can change and update the firebase when
         the picture is changed
           and also delete the picture from the database,
-          to get the code either <a href='https://github.com/usen-bet/Chat-Application.git'>click here</a> or click on the fixed code on the 
-        left middle part of the screen  
+          to get the code either <a href='https://github.com/usen-bet/Chat-Application.git'>
+            click here</a> or click on the fixed code on the 
+          left middle part of the screen, 
+        to view the website <a href='https://whatsapp-clone-990eb.web.app/'>click here</a>  
       </p>
 
       </div>

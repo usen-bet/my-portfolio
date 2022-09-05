@@ -17,7 +17,7 @@ const NetflixProject = () => {
           This was my first ever go at something that has been
           produced before, the aim was to textmy css skills mainly
           and has no very difficult functionality in it
-          
+          The site can be viewed <a href=" https://net-clone-tau.vercel.app/" >here</a>
       </p>
 
       <div  className="img-holder" >
@@ -38,8 +38,10 @@ const NetflixProject = () => {
           picture and story changes on reloadand the background of the
           navbar becomes transparent when you scroll to the picture area
           but becomes dark when the scroll has passed that area,
-          to get the code either <a href='https://github.com/usen-bet/Net-clone.git'>click here</a> or click on the fixed code on the 
-        left middle part of the screen 
+          to get the code either <a href='https://github.com/usen-bet/Net-clone.git'>click here</a>
+          or click on the fixed link on the 
+          left middle part of the screen 
+          you can view the site <a href=" https://net-clone-tau.vercel.app/" >here</a>
       </p>
       </div>
       <div className="image-holder1">

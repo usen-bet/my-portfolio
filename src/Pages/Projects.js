@@ -6,43 +6,59 @@ const Projects = () => {
   return (
     
     <div className="project">
-      <h1>MY PROJECTS</h1>
+      <h1 className="head">MY PROJECTS</h1>
           <div className="project-photo">
-        <Link to="/chat">
-        <div className="grid-images" >
+        <div>
+        <Link to="/chat" className="link">
+
         <img
-          src="/Photos/kari-shea-1SAnrIxw5OY-unsplash.jpg"
+          src="/Photos/Project.jpg"
           alt="Chat app Photos"
           className="Photos"
             />
             
-        <p>A Chat Application made with React js, firebase(for Auth, storage and provider purposes ) </p>
-      </div> 
-        </Link>      
-        <Link to="/flix">
-        <div className="grid-images" >
-          
+          </Link> 
+       <p  className="text">Chat Application</p>   
+        </div> 
+        
+        <div>
+        <Link to="/flix" className="link">
+
         <img
-          src="/Photos/burst-kUqqaRjJuw0-unsplash.jpg"
+          src="/Photos/Project.jpg"
           alt="Chat app Photos"
           className="Photos"
             />
-            
-        <p>A Netflix dashboard clone made with react.js and a regular Movie API</p>
-      </div> 
-        </Link>   
-        <Link to="twit">
-          <div className="grid-images num3" >
-         <img
-          src="/Photos/christin-hume-mfB1B1s4sMc-unsplash.jpg"
+
+          </Link>
+        <p className="text">Nextflix Dashboard </p>  
+        </div>
+
+        <div>
+        <Link to="/Weather" className="link">
+
+        <img
+          src="/Photos/Project.jpg"
           alt="Chat app Photos"
           className="Photos"
-            /> 
-            
-            <p>A clone of Twitter home page UI made with Next.js, sanity(for backend)</p>
-           
-      </div> 
-        </Link>   
+            />
+
+          </Link> 
+          <p className="text">Weather App </p>
+        </div> 
+        
+        <div>
+        <Link to="/cloth" className="link">
+
+        <img
+          src="/Photos/Project.jpg"
+          alt="Chat app Photos"
+          className="Photos"
+        />
+        
+        </Link>
+        <p className="text">Clothing Brand Site</p>
+        </div>            
       </div>
       <div className="footer">
         <div className="foot">
